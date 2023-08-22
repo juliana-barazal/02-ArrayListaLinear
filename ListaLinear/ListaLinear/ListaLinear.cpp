@@ -1,4 +1,4 @@
-// Claudio Souza Nunes
+// Juliana Barazal
 
 #include <iostream>
 using namespace std;
