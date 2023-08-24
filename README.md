@@ -1,6 +1,6 @@
 # Lista Linear
 
-Juliana Stopassoli Barazal
+Juliana Stopassoli Barazal//
 email institucional: juliana.barazal@fatec.sp.gov.br
 
 
