@@ -53,7 +53,7 @@ void menu()
 		case 5: inserirElemento();
 			break;
 		case 6:
-			return;
+			return;    
 		default:
 			break;
 		}
@@ -108,24 +108,22 @@ void buscarElemento()
 	//n --> contador com posições; busca --> número que está na posição n;
 
 	int busca;
-	
+	bool achou = false; //bool --> dado booleano
+
 	cout << "Digite o elemento que deseja buscar: \n";
 	cin >> busca;
 
-
 	for (int n = 0; n < nElementos; n++) {
-
 		if (busca == lista[n]) {
 			cout << "Encontrei na posicao " << n << endl;
-			break;
-		}
-
-		else if (busca != lista[n]); {
-			cout << "O elemento não está na lista." << endl;
-			break;
+			achou = true; //sim, achou! (não entra no próximo if)
 		}
 	}
-	
+
+
+	if (achou == false) {
+		cout << "O elemento não está na lista." << endl;
+	}
 
 }
 
